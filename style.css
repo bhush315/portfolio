@@ -1,0 +1,146 @@
+body{
+background-color:rgba(82, 84, 84, 0.694);
+height:100vh;
+font-family: roboto;
+margin-top:50px;
+color:#414358;
+}
+
+.top{
+
+    width:60%;
+    height:70px;
+    background-color:white;
+    float:right;
+    border-radius:300px 0px 0px  0px;
+
+}
+
+header{
+
+    width:70%;
+    height:70px;
+    background-color:transparent;
+    margin:auto;
+    border-radius:10px;
+
+}
+
+main{
+
+    width:70%;
+    height:570px;
+    padding:0px;
+    background-color:white;
+    margin:auto;
+    border-radius:10px 0px 10px 10px;
+
+}
+
+
+nav{
+
+    float:right;
+}
+
+nav ul{
+
+    list-style-type: none;
+    margin:10px 10px 0px 0px;
+    padding:0;
+}
+
+nav ul li{
+
+    display:inline-block;
+    padding:10px;
+    margin:5px;
+    transition: all ease-in-out;
+    cursor: pointer;
+    font-weight:500;
+
+}
+
+nav ul li:hover{
+
+    
+    background-color:#2F4EF7;
+    color:#fff;
+    border-radius:10px;
+   
+}
+
+
+
+nav ul li a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+nav ul li a:hover{
+
+
+    color:#fff;
+
+   
+}
+
+
+.left{
+
+    float:left;
+    width:32%;
+    background-color:transparent;
+    padding:10px;
+    overflow:hidden;
+}
+
+.right{
+
+    float:right;
+    width:60%;
+    background-color:transparent;
+    padding:10px;
+    overflow:hidden;
+}
+
+.left img{
+
+    border-radius:20px;
+}
+
+.left h1{
+    text-align:center;
+}
+
+.badge{
+
+    text-align:center;
+    padding:10px 20px;
+    border-radius:20px;
+    background-color: #314CFD;
+    margin:auto;
+    color:white;
+}
+
+.space{
+
+    margin-top:20px;
+}
+
+.space2{
+
+    margin:auto;
+    font-weight:600;
+}
+
+.intro{
+
+    font-weight:600;
+    text-transform: capitalize;
+    font-size:27px;
+    border-bottom:#314CFD 3px dashed;
+}
